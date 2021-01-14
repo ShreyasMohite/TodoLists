@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+.maincontent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+    .TodoCard{
+        width: 22rem;
+        height: 35rem;
+        box-shadow: 0px 0px 10px;
+        border-radius: 20px;
+        //background-color: rebeccapurple;
+        .headingbackground{
+            text-align: center;
+            background-color: rgb(143, 54, 165);
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+            padding: 1rem;
+            h1{
+                color: white;
+            }
+            //border-radius: 20px;
+
+        }
+        .Insertdata{
+            text-align: center;
+            margin: 2rem 0rem;
+            input[type="search"]{
+                padding: 0.4rem;
+                width: 15rem;
+                text-align: center;
+                font-size: 1rem;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: solid;
+                
+            }
+        }
+        button{
+            border-radius: 50px;
+            height: 5rem;
+            width: 3rem;
+            height: 3rem;
+            border: none;
+            box-shadow: 0px 0px 5px black;
+            cursor: pointer;
+            font-size: 2rem;
+            background-color: rgb(248, 187, 72);
+            color: white;
+            text-align: center;
+
+        }
+        .listitem{
+            text-align: center;
+            .item{    
+                overflow-y: scroll; 
+                overflow-x: hidden;
+                height: 23.5rem;    
+                overflow-y: visible;
+                overflow-wrap: normal;
+                .data{                 
+                    font-size: 1.5rem;       
+                }
+            }
+            
+        }
+    }
+}
+
+.check{
+    float: left;
+    margin-top: 0.5rem;
+}
+
+
+
+
+ul{
+    li{
+        list-style: none;
+        margin-top: 1rem;
+        box-shadow: 0px 0px 10px;
+        border-radius: 10px;
+        padding: 0.5rem;
+        width: 19.5rem;
+        margin-left: 1.2rem;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}
+
